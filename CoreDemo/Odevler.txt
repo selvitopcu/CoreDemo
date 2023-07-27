@@ -1,0 +1,102 @@
+﻿Sertifika Ödevleri
+
+20. Video: Projeyi GitHuba yüklenecek
+*
+yüklendi
+
+
+
+25 Video: Eager Loading ve Lazy loading araştınlacak. (Videonun yorumlannda cevaplar var) 
+* 
+Lazy Loading: sayfadaki öğeler, nesneler ihtiyaç olana kadar alınmazlar. İhtiyaç duyulduğunda çağırılır.  Tüm verilerin yüklenmesi yerine kullanılacağı an sorgu ile çekilmesi presnsibine dayanır. Bu yüzden her yüklemede veritabanına birsorgu atılması gerekir. Birden fazla sorgu atılacağı için maliyet arttırır. Tekrar tekrar bağlantı yapıldığı için veri arttıkça eager loadinge göre daha yavaş çalışır.
+
+Eager Loading: Nesneler ihtiyaç anından çok dha önce yaratılıp bekletilirler. Sorgu çalıştğında verilerin tamamını yükler. Bir sorguda gerekli olan bütün bilgileri alır.Daha az maliyetlidir. Daha hızlı çalışır.
+
+
+
+
+30. Video: View Component ile Partial view arasındaki fark araştınlacak (Videonun yorumlarında cevaplar var)
+*
+
+Partial view bir modelle kullanıldığında modelin controllerlar içerisinde doldurulması gerekir.  Her partial oluşturulduğunda bu işlemi yapmak gerekir.
+
+View Component ise controller gibi çalımaktadır. Bu yüzden her View Component için model oluşturmaya gerek kalmaz. Model Invoke() fonksiyonu içinde doldrulmaktadır. View Componentler sayesinde controller bağımlılığı azalır. görsel taslaklar tekrar kullanılabilir. Solide uygunluk sağlar.
+
+
+
+
+32 Video: Eğer Blogta Hiç Yorum yoksa ilk yorumu siz yazın diye yazdırılacak. 
+*
+Views -> Shared -> Components -> ComponentListByBlog
+
+
+
+33-Video: Kayıt Olurken Parolanin 2 kez gili onaylanması
+*
+EntityLayer -> Concrete -> Writer 
+RegisterController->Index
+
+
+34 Video: Kayıt olma sayfasında değerlerini view modelde tutucağimiz bir şehir seçimi 
+*
+Models=> CityViewModel
+RegisterController=>Index
+//model çağırıldığında çalışıyor. 
+
+
+
+
+35. Video: Fluent Validationda Kullanicinin parolas en az bir büyük harf, en az bir küçük harf ve en az 3 sayı olacak
+*
+BusinessLayer => ValidationRules => WriterValidator
+
+
+
+
+39 video: Yorum ve Mail Bülteni Eldeme Sorununun Giderilmesi
+*
+Views => NewsLetter => SubscribeMail
+Sorunu ajax sorgusu yazarak çözebiliriz.
+
+
+
+40 Video: Github Repolan Güncellenecek
+**
+
+
+54. 68.Video: kendi ikonumuzla değiştirip ekran görütüsü alacağız. Bu ekran görüntüsünü projenin uı katmanına görev 3 şeklinde koyacağız
+
+
+
+
+
+Ek Ödevler
+
+Ek-1:  Yazar panelinde Purple logosu yerine kendi blogunuzun logosunu koyun. 54. 60.da yap
+
+
+Ek-2:   Durumlarda aktif olan yerelerde aktif false olan yerlerde pasif yazsın57.video
+ 
+Ek-3:   Popup ile silmek istediğinizden emin misiniz? dşiye sorsun 58
+createdate nasıl tutulur 59
+
+
+60.ders: Github Link güncelle
+
+
+Ek-4:  72.video Güncelleme ekranında şifreyiiki kere al ve kıyaslaama yaptor na göre işlemi gerçekleştir
+
+
+Ek-5:  76 Bildirimler kısmında tüm bildirimler gözükmesin sadece durumu rue olanlar gözüksün
+
+Ek-6. Mesajlar bildiriminde .. satt önce falan diye ekleme yap 79
+
+Ek-7  94.sweatalertle yap confirmi
+
+Ek-8  Admin controller da yorum puanı renkleri ver
+123 kırmızı         456 sarı        78mavi    9 10 yeşil
+
+
+//guncellemeyi writer a göre yapmıştık bunu değiştirebiliriz -128
+137 nin altında bi kod var istersen al
+144 menüleri rollemeye göre ayarlama

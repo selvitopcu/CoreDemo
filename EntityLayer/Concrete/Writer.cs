@@ -15,7 +15,11 @@ namespace EntityLayer.Concrete
         public string WriterAbout { get; set; }
         public string WriterImage { get; set; }
         public string WriterMail { get; set; }
-        public string WriterSifre { get; set; }
+		[DataType(DataType.Password)]
+		public string WriterSifre { get; set; }
+		[DataType(DataType.Password)]
+		[Compare("WriterSifre", ErrorMessage = "Şifreler eşleşmiyor! Lütfen şifreyi tekrar giriniz!")]
+        public string ConfirmSifre { get; set; }
         public bool WriterStatus { get; set; }
         public List<Blog> Blogs { get; set; }   
         public virtual ICollection<Message2> WriterSender { get; set; } 
