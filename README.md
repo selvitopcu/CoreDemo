@@ -5,7 +5,6 @@ Bu proje Murat Yücedağ ile ASP.Net Core 5.0 kampı referans alınarak 150 ders
 
 Kullanıcı, yazar ve admin panellerinden oluşmaktadır.
 
-Deneme KullanıcıAdı:selvitopcu Sifre:Sel.123
 
 ASP.Net Core 5.0 ile N Tier Architechture mimarisi yapısında Codefirst, Entity Framework Core ile hazırlanmıştır.
 
